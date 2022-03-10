@@ -1,2 +1,2 @@
-# charts-bt-test
-Test chart repository
+# helm-charts
+A collection of helm charts
