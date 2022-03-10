@@ -1,4 +1,4 @@
-# tb4mmaggots - Helm Charts!
+# Test Helm Charts!
 ## Usage
 
 [Helm](https://helm.sh) must be installed to use the charts.  Please refer to
