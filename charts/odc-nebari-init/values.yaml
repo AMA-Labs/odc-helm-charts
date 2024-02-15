@@ -1,0 +1,4 @@
+app:
+  name: odc-init
+  image: brianbterry/odc-init
+  tag: latest

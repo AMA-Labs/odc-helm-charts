@@ -1,0 +1,12 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ .Values.app.name }}
+spec:
+  template:
+    spec:
+      containers:
+      - name: {{ .Values.app.name }}
+        image: {{ .Values.app.image}}:{{ .Values.app.tag }}
+      restartPolicy: Never
+  backoffLimit: 4
